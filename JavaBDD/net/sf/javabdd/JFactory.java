@@ -47,7 +47,7 @@ public class JFactory extends BDDFactory {
         return f;
     }
 
-    static final boolean USE_FINALIZER = false;
+    static final boolean USE_FINALIZER = true;
     public static boolean FLUSH_CACHE_ON_GC = true;
     
     /**
